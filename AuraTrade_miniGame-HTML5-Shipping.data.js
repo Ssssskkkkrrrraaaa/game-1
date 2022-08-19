@@ -18,8 +18,8 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = 'D:/Allproject/UE/AuraTrade/AuraTrade_miniGame/Binaries/HTML5/AuraTrade_miniGame-HTML5-Shipping.data';
-    var REMOTE_PACKAGE_BASE = 'AuraTrade_miniGame-HTML5-Shipping.data';
+    var PACKAGE_NAME = 'https://dl.dropboxusercontent.com/s/f02bta88n2f9t0f/AuraTrade_miniGame-HTML5-Shipping.data?dl=0';
+    var REMOTE_PACKAGE_BASE = 'https://dl.dropboxusercontent.com/s/f02bta88n2f9t0f/AuraTrade_miniGame-HTML5-Shipping.data?dl=0';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
       err('warning: you defined Module.locateFilePackage, that has been renamed to Module.locateFile (using your locateFilePackage for now)');
